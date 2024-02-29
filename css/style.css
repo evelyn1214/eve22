@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #333333;
+}
+
+body {
+    width: 1000px;
+    height: 650px;
+    display: flex;
+}
+
+header {
+    width: 200px;
+    height: 650px;
+    background-color: antiquewhite;
+}
+
+.mainmenu>ul>li {
+    /* 336page 가상클래스 사용해서 다녀온 하이퍼링크 글자색 변경하기 */
+    padding: 5px 0;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: #333333;
+}
+
+.mainmenu>ul>li:hover {
+    background: rgba(96, 241, 122, 0.2);
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.mainfooter {
+    width: 800px;
+    height: 550px;
+}
+
+.imgSlide {
+    width: 800px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contents {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contents>div {
+    width: 20%;
+    margin: 10px;
+}
+
+.contents div:nth-of-type(3){
+    width: 60%;
+}
+
+.notice ul {
+    padding: 10px;
+    margin: 0px 20px;
+    border:1px solid #000;
+}
+
+.notice ul li {
+    padding: 8px 20px;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.notice li:nth-child(even) {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.notice>p{
+   font-weight:800;
+   width:100px;
+   text-align:center;
+   margin:0px 20px;
+   padding:5px;
+   background: rgba(0, 0, 0, 0.05);
+}
+
+/*공지사항 리스트 짝수에만 배경 색상 넣기 */
+.notice>ul>li:hover {
+    color: #222328;
+    background: rgba(246, 182, 44, 0.1);
+}
+
+/* 날짜 오른쪽 정렬 */
+.notice li span {
+    float: right;
+}
+
+.banner, .direct{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    border: 1px solid #000;
+}
+
+.banner>a{
+    background-color: rgba(0, 255, 255, 0.185);
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+
+.direct>a{
+    background-color: rgba(0, 255, 255, 0.185);
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+footer {
+    width: 800px;
+    height: 100px;
+    display: flex;
+    background-color: #FFE08C;
+}
+
+.copyright {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.family {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
